@@ -1,10 +1,8 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
+const foodSchemaDefinition = require('./foodSchemaDefinition');
 
-const breakfastSchema = new Schema({
-  _id: Schema.Types.ObjectId,
-  food: [String]
-});
+const breakfastSchema = new Schema(foodSchemaDefinition);
 
 const Breakfast = mongoose.model('Breakfast', breakfastSchema);
 
