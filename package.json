@@ -1,0 +1,26 @@
+{
+  "name": "meal-plan",
+  "version": "0.1.0",
+  "description": "Backend of meal-plan-ui",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aledileo/meal-plan.git"
+  },
+  "keywords": [
+    "meal",
+    "calories",
+    "meat",
+    "food",
+    "fit"
+  ],
+  "author": "Alejandro Di Leo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aledileo/meal-plan/issues"
+  },
+  "homepage": "https://github.com/aledileo/meal-plan#readme"
+}
