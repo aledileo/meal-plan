@@ -1,8 +1,8 @@
-const ObjectId = require('mongoose').Schema.Types.ObjectId;
+const { ObjectId } = require('mongoose').Schema.Types;
 
 const foodSchemaDefinition = {
   _id: ObjectId,
-  food: [String]
-}
+  food: [String],
+};
 
 module.exports = foodSchemaDefinition;

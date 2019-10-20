@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+
+const { Schema } = mongoose;
 const foodSchemaDefinition = require('./foodSchemaDefinition');
 
 const breakfastSchema = new Schema(foodSchemaDefinition);

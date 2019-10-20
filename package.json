@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/app.js",
-    "populate": "node src/tasks/populate.js"
+    "populate": "node src/tasks/populate.js",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "eslint --ignore-path .gitignore --fix ."
   },
   "repository": {
     "type": "git",
@@ -30,13 +32,14 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.7.5"
+    "mongoose": "^5.7.5",
+    "chalk": "^2.4.2"
   },
   "devDependencies": {
-    "chalk": "^2.4.2",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
+    "husky": "^3.0.9",
     "nodemon": "^1.19.4"
   }
 }
